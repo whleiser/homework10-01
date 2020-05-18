@@ -7,11 +7,19 @@ class Employee {
     }
 
     getName() {
-        return $ { this.name.first };
+        return this.name;
+    }
+
+    getID() {
+        return this.id;
     }
 
     getEmail() {
-        return $ { this.email };
+        return this.email;
+    }
+
+    getRole() {
+        return "Employee"
     }
 }
 
